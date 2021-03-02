@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export default styled.aside`
-    grid-area:sidenav;
+    grid-area:topnav;
     background-color:#253545;
-    @media (max-width:800px){
+    @media (min-width:800px){
         display:none;
     }
 `

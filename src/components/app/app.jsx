@@ -5,6 +5,7 @@ import Footer from '../shared/template/Footer';
 import Header from '../shared/template/Header';
 import SideNav from '../shared/template/SideNav';
 import Toolbar from '../shared/template/Toolbar';
+import TopNav from '../shared/template/TopNav';
 
 
 const App = props => {
@@ -16,6 +17,9 @@ const App = props => {
             <Toolbar>
                 <span>toolbar</span>
             </Toolbar>
+            <TopNav>
+                <span>TopNav</span>
+            </TopNav>
             <SideNav>
                 <span>sidenav</span>
             </SideNav>
